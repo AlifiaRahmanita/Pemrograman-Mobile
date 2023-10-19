@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Layout"
+rootProject.name = "MobileView"
 include(":app")
  

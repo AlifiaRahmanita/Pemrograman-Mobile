@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.layout"
+    namespace = "com.example.mobileview"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.layout"
-        minSdk = 28
+        applicationId = "com.example.mobileview"
+        minSdk = 29
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -19,7 +19,10 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {
